@@ -1,7 +1,7 @@
 ---
-title: "kelompok 1"
-author: "Joe Cheng [&lt;joe@rstudio.com&gt;](mailto:joe@rstudio.com)"
-date: "\\#ShinyDevConf — January 30, 2016"
+title: "Pengantar Amazon Web Services"
+author: "Kelompok 1 (pia)"
+date: "\\#Jum'at — April 26, 2024"
 output:
   revealjs::revealjs_presentation:
     theme: night
@@ -13,21 +13,39 @@ output:
     incremental: false
 ---
 
-##  IKHTISAR
-Perkenalkan, modul ikhtisar. Ia akan hadir pada setiap akhir modul yang berisi ringkasan/kesimpulan dari materi yang dipelajari. Anggaplah modul ini sebagai kilas balik untuk mempertajam pemahaman Anda.
+## Manfaat dari Komputasi Cloud
+Ada beberapa hal yang perlu Anda pertimbangkan agar semakin yakin untuk memilih komputasi cloud :
+- Ubah pengeluaran di muka menjadi pengeluaran variabel 
+
+Pengeluaran di muka (upfront expense) mengacu pada data center, server fisik, dan sumber daya lain yang perlu diinvestasikan sebelum digunakan. Sedangkan, pengeluaran variabel (variable expense) berarti hanya membayar untuk sumber daya komputasi yang dikonsumsi.
+
+- Hentikan biaya pengelolaan dan pemeliharaan data center
+
+Komputasi di data center sering kali mengharuskan pengguna untuk mengeluarkan lebih banyak biaya dan waktu untuk mengelola infrastruktur dan server.
+
 
 
 ---
 
-Mari kita uraikan:
+- Berhenti menebak kapasitas
 
-> 1. Pertama, kita telah berkenalan dengan skenario kedai kopi yang akan terus dipakai di setiap modul pada kelas ini. 
-> 2. Kita juga sudah belajar tentang komputasi cloud.
-> 3. Lalu, kita telah menelaah setiap model penerapan untuk komputasi cloud.
-> 4. Terakhir, kita telah menilik manfaat dari komputasi cloud.
+Dengan komputasi cloud, para pengguna tak perlu memprediksi berapa banyak kapasitas infrastruktur yang diperlukan sebelum men-deploy aplikasi, dan dapat menggunakan kapasitas sesuai keinginan.Bahkan juga dapat melakukan proses scale in (mengurangi) atau scale out (memperbanyak) kapasitas sesuai permintaan.
 
-<div class="fragment">
-</div>
+- Manfaatkan skala ekonomi yang masif
+
+Dengan menggunakan komputasi cloud, para pengguna dapat mewujudkan biaya variabel yang lebih rendah daripada yang dapat kita peroleh dari data center on-premise.
 
 
+
+---
+
+- Tingkatkan kecepatan dan ketangkasan
+
+Fleksibilitas dari penggunaan komputasi cloud memudahkan Anda untuk mengembangkan dan men-deploy aplikasi. Dengan komputasi cloud, para pengguna memiliki lebih banyak waktu untuk bereksperimen dan berinovasi.
+
+- Mendunia dalam hitungan menit
+
+AWS Cloud memungkinkan para pengguna dapat meluncurkan aplikasi ke pelanggan di seluruh dunia dengan cepat sekaligus memberikan latensi yang rendah. Ini berarti meskipun kita berada di belahan dunia yang berbeda dengan pelanggan, mereka tetap dapat mengakses aplikasi dengan waktu tunda (delay) yang minimal.
+
+---
 
