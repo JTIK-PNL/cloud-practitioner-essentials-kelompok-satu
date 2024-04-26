@@ -1,0 +1,119 @@
+---
+title: "Pengantar Amazon Web Services"
+author: "Kelompok 1 (pia)"
+date: "\\#Jum'at — April 26, 2024"
+output:
+  revealjs::revealjs_presentation:
+    theme: night
+    transition: none
+    self_contained: true
+    css: slides.css
+  beamer_presentation:
+    toc: false
+    incremental: false
+---
+
+##  Pengatar Ke Amazon Web Services
+ Cloud Practitioner adalah kelas dasar yang hadir untuk mengenalkan Anda pada layanan komputasi cloud dengan Amazon Web Services atau biasa disingkat AWS.
+
+Amazon Web Services atau AWS adalah salah satu layanan penyedia komputasi cloud yang telah hadir di seluruh dunia. AWS merupakan platform cloud yang paling komprehensif dan digunakan secara luas. Faktanya, jumlah layanan di AWS mencapai lebih dari ratusan layanan unggulan dengan jutaan pelanggan.
+
+Dengan cloud seperti AWS ini, pengguna dari berbagai kalangan perusahaan IT, pada umumnya, menjadi lebih tangkas dalam menjalankan aktivitas operasional sehari-hari dan lebih cepat dalam berinovasi.
+
+
+
+---
+
+Siapa yang dapat mengambil kelas ini?
+Kelas Cloud Practitioner Essentials ini ditujukan bagi Anda yang mencari pemahaman secara keseluruhan tentang AWS Cloud, Kelas ini pun ditujukan bagi Anda yang bekerja di bidang berikut:
+
+
+-Sales
+
+-Hukum
+
+-Pemasaran
+
+-Analis bisnis
+
+-Manajer proyek
+
+-Pelajar AWS Academy
+
+-Profesi lain terkait IT
+
+## Komputasi Cloud
+
+Sebelum kita melangkah ke bagian AWS lebih dalam, mari kita persempit lingkupan pembahasannya, yaitu mengenai definisi kerja dari cloud.
+
+Apa yang tebersit di pikiran Anda saat mendengar kata cloud? Jika Anda membayangkan gumpalan awan, Anda tidak salah karena memang kebanyakan ilustrasi jaringan komputer memuat simbol cloud atau awan yang merupakan perumpamaan dari internet.
+
+Namun, kenapa internet disimbolkan dengan awan? Nah, menurut newyorker.com, simbol awan dipakai karena merepresentasikan keberadaan data kita yang ada di suatu tempat di luar sana, mengambang, melayang, nirkabel, tersedia di mana saja dan kapan saja ketika kita membutuhkannya. Istilah awan juga menarik karena merupakan kebalikan dari dunia material yang real seperti colokan, kabel, hard disk, dsb
+
+-----
+
+Sekarang, apa yang dimaksud dengan cloud computing? Menurut AWS, cloud computing atau bisa juga disebut dengan komputasi cloud adalah penggunaan sesuai kebutuhan (on-demand) sumber daya IT melalui internet dengan harga sesuai pemakaian (pay as you go).
+
+Mari kita uraikan definisi tersebut:
+
+# 1. Penggunaan sesuai kebutuhan
+
+ini menunjukkan bahwa AWS memiliki sumber daya yang Anda butuhkan kapan pun dan di mana pun. Tak perlu memberi tahu AWS kapan Anda akan membutuhkannya.Jika tiba-tiba Anda membutuhkan 300 server virtual, lakukan beberapa klik saja dan mereka pun akan langsung tersedia.
+
+Anda dapat membangun aplikasi tersebut pada low-level infrastructure (infrastruktur tingkat rendah) yang mana memerlukan staf IT Anda untuk mengelolanya. Atau dengan alternatif lain, yaitu menggunakan higher-level services (layanan dengan tingkat lebih
+tinggi) sehingga mengurangi kebutuhan pengelolaan, arsitektur, dan scaling (penyesuaian kapasitas) pada infrastruktur Anda.
+
+Misalnya, Anda dapat membuat aplikasi yang terdiri dari server virtual, database, dan komponen jaringan yang sepenuhnya berbasis di cloud.
+
+# 2. Sumber daya IT
+
+sebenarnya bagian besar dari filosofi AWS. AWS memiliki ratusan layanan unggulan. Mengapa begitu banyak? Jawabannya sangat sederhana: karena bisnis membutuhkannya. Di AWS pun ada beberapa sumber daya IT yang sudah umum digunakan di sejumlah perusahaan.
+
+# 3. Melalui internet
+
+menyiratkan bahwa Anda dapat mengakses sumber daya tersebut yang telah dipaparkan sebelumnya menggunakan web browser atau secara terprogram.
+
+Tak perlu kontrak apa pun, cukup bayar dengan mekanisme pay-as-you-go (sesuai pemakaian). Sama halnya seperti skenario kedai kopi kita. Anda tak perlu mempekerjakan banyak pegawai terus-menerus, cukup di waktu jam sibuk saja. Bahkan di waktu malam hingga pagi, Anda tak butuh pegawai sama sekali karena kedai kopi tutup. Itulah cloud computing alias komputasi cloud.
+
+Sebelum datangnya komputasi cloud, perusahaan yang ingin membuat data center harus membangunnya sendiri dan harus memprediksikan beban kerja layanan. Ini tentu akan sangat merepotkan karena perlu biaya yang cukup besar.
+
+---
+
+Sebuah data center biasanya terdiri dari rak-rak komputer yang berjajar, jaringan yang kompleks, dan juga sistem penyimpanan yang terkelola. Selain itu, perusahaan juga harus mengeluarkan dana untuk membayar sewa bangunan, kebersihan, listrik, pendingin, dan keamanan.
+
+## Manfaat dari Komputasi Cloud
+Ada beberapa hal yang perlu Anda pertimbangkan agar semakin yakin untuk memilih komputasi cloud :
+- Ubah pengeluaran di muka menjadi pengeluaran variabel 
+
+Pengeluaran di muka (upfront expense) mengacu pada data center, server fisik, dan sumber daya lain yang perlu diinvestasikan sebelum digunakan. Sedangkan, pengeluaran variabel (variable expense) berarti hanya membayar untuk sumber daya komputasi yang dikonsumsi.
+
+- Hentikan biaya pengelolaan dan pemeliharaan data center
+
+Komputasi di data center sering kali mengharuskan pengguna untuk mengeluarkan lebih banyak biaya dan waktu untuk mengelola infrastruktur dan server.
+
+
+
+---
+
+- Berhenti menebak kapasitas
+
+Dengan komputasi cloud, para pengguna tak perlu memprediksi berapa banyak kapasitas infrastruktur yang diperlukan sebelum men-deploy aplikasi, dan dapat menggunakan kapasitas sesuai keinginan.Bahkan juga dapat melakukan proses scale in (mengurangi) atau scale out (memperbanyak) kapasitas sesuai permintaan.
+
+- Manfaatkan skala ekonomi yang masif
+
+Dengan menggunakan komputasi cloud, para pengguna dapat mewujudkan biaya variabel yang lebih rendah daripada yang dapat kita peroleh dari data center on-premise.
+
+
+
+---
+
+- Tingkatkan kecepatan dan ketangkasan
+
+Fleksibilitas dari penggunaan komputasi cloud memudahkan Anda untuk mengembangkan dan men-deploy aplikasi. Dengan komputasi cloud, para pengguna memiliki lebih banyak waktu untuk bereksperimen dan berinovasi.
+
+- Mendunia dalam hitungan menit
+
+AWS Cloud memungkinkan para pengguna dapat meluncurkan aplikasi ke pelanggan di seluruh dunia dengan cepat sekaligus memberikan latensi yang rendah. Ini berarti meskipun kita berada di belahan dunia yang berbeda dengan pelanggan, mereka tetap dapat mengakses aplikasi dengan waktu tunda (delay) yang minimal.
+
+---
+
