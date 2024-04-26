@@ -1,0 +1,44 @@
+---
+title: "Pengatar Ke Amazon Web Services"
+author: " Kelompok 1 "
+date: "\\# April 26, 2024"
+output:
+  revealjs::revealjs_presentation:
+    theme: night
+    transition: none
+    self_contained: true
+    css: slides.css
+  beamer_presentation:
+    toc: false
+    incremental: false
+---
+
+##  Pengatar Ke Amazon Web Services
+ Cloud Practitioner adalah kelas dasar yang hadir untuk mengenalkan Anda pada layanan komputasi cloud dengan Amazon Web Services atau biasa disingkat AWS.
+ 
+Amazon Web Services atau AWS adalah salah satu layanan penyedia komputasi cloud yang telah hadir di seluruh dunia. AWS merupakan platform cloud yang paling komprehensif dan digunakan secara luas. Faktanya, jumlah layanan di AWS mencapai lebih dari ratusan layanan unggulan dengan jutaan pelanggan.
+
+Dengan cloud seperti AWS ini, pengguna dari berbagai kalangan perusahaan IT, pada umumnya, menjadi lebih tangkas dalam menjalankan aktivitas operasional sehari-hari dan lebih cepat dalam berinovasi.
+
+
+
+---
+
+Siapa yang dapat mengambil kelas ini?
+Kelas Cloud Practitioner Essentials ini ditujukan bagi Anda yang mencari pemahaman secara keseluruhan tentang AWS Cloud, Kelas ini pun ditujukan bagi Anda yang bekerja di bidang berikut:
+
+
+-Sales
+
+-Hukum
+
+-Pemasaran
+
+-Analis bisnis
+
+-Manajer proyek
+
+-Pelajar AWS Academy
+
+-Profesi lain terkait IT
+
