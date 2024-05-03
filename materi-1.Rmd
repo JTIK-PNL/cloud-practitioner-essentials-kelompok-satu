@@ -12,6 +12,24 @@ output:
     toc: false
     incremental: false
 ---
+##  Pengatar Ke Amazon Web Services
+Cloud Practitioner adalah kelas dasar yang hadir untuk mengenalkan Anda pada layanan komputasi cloud dengan Amazon Web Services atau biasa disingkat AWS.
+
+Amazon Web Services atau AWS adalah salah satu layanan penyedia komputasi cloud yang telah hadir di seluruh dunia. AWS merupakan platform cloud yang paling komprehensif dan digunakan secara luas. Faktanya, jumlah layanan di AWS mencapai lebih dari ratusan layanan unggulan dengan jutaan pelanggan.
+
+Dengan cloud seperti AWS ini, pengguna dari berbagai kalangan perusahaan IT, pada umumnya, menjadi lebih tangkas dalam menjalankan aktivitas operasional sehari-hari dan lebih cepat dalam berinovasi.
+
+##  Pengatar Ke Amazon Web Services (cont.)
+Siapa yang dapat mengambil kelas ini?
+Kelas Cloud Practitioner Essentials ini ditujukan bagi Anda yang mencari pemahaman secara keseluruhan tentang AWS Cloud, Kelas ini pun ditujukan bagi Anda yang bekerja di bidang berikut:
+
+-Sales
+-Hukum
+-Pemasaran
+-Analis bisnis
+-Manajer proyek
+-Pelajar AWS Academy
+-Profesi lain terkait IT
 
 ##  Pengantar
  AWS menawarkan berbagai macam layanan untuk setiap kegunaan. Dimulai dengan elemen dasar, seperti komputasi, penyimpanan, dan keamanan jaringan, hingga solusi kompleks seperti blockchain, machine learning, atau artificial intelligence (kecerdasan buatan), serta platform pengembangan robot.
@@ -48,25 +66,6 @@ On-premises juga dikenal sebagai private cloud (cloud privat). Dalam model ini, 
 
 Dalam penerapan hybrid, sumber daya berbasis cloud terhubung ke data center on-premises (lokal). Anda bisa gunakan pendekatan ini untuk beberapa situasi, seperti aplikasi lama yang memang lebih baik dikelola di on-premises atau mungkin karena peraturan pemerintah yang mengharuskan Anda menyimpan data tertentu di data center lokal.
 
-
-##  Pengatar Ke Amazon Web Services
-Cloud Practitioner adalah kelas dasar yang hadir untuk mengenalkan Anda pada layanan komputasi cloud dengan Amazon Web Services atau biasa disingkat AWS.
-
-Amazon Web Services atau AWS adalah salah satu layanan penyedia komputasi cloud yang telah hadir di seluruh dunia. AWS merupakan platform cloud yang paling komprehensif dan digunakan secara luas. Faktanya, jumlah layanan di AWS mencapai lebih dari ratusan layanan unggulan dengan jutaan pelanggan.
-
-Dengan cloud seperti AWS ini, pengguna dari berbagai kalangan perusahaan IT, pada umumnya, menjadi lebih tangkas dalam menjalankan aktivitas operasional sehari-hari dan lebih cepat dalam berinovasi.
-
-##  Pengatar Ke Amazon Web Services (cont.)
-Siapa yang dapat mengambil kelas ini?
-Kelas Cloud Practitioner Essentials ini ditujukan bagi Anda yang mencari pemahaman secara keseluruhan tentang AWS Cloud, Kelas ini pun ditujukan bagi Anda yang bekerja di bidang berikut:
-
--Sales
--Hukum
--Pemasaran
--Analis bisnis
--Manajer proyek
--Pelajar AWS Academy
--Profesi lain terkait IT
 
 ## Komputasi Cloud
 
