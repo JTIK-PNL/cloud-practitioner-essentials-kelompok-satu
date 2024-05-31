@@ -1,7 +1,7 @@
 ---
-title: "Principles of Reactivity"
-author: "Joe Cheng [&lt;joe@rstudio.com&gt;](mailto:joe@rstudio.com)"
-date: "\\#ShinyDevConf — January 30, 2016"
+title: "PEMANTAUAN dan ANALITIK" 
+author: "kelompok 1"
+date: "\\#materi 7"
 output:
   revealjs::revealjs_presentation:
     theme: night
@@ -13,22 +13,23 @@ output:
     incremental: false
 ---
 
-## Warm up: Side effects
+##  Pengantaran pemantauan dan Analitik 
+
+
+Setiap bisnis termasuk kedai kopi kita dapat menggunakan metrik untuk mengukur seberapa baik sistem dan proses yang berjalan.
+
+Nah, proses mengamati sistem; mengumpulkan metrik; dan mengevaluasinya dari waktu ke waktu untuk membuat keputusan atau mengambil tindakan, disebut dengan monitoring atau pemantauan.
+
+Tahukah Anda pentingnya sebuah pemantauan? Kegiatan ini perlu Anda lakukan ketika menggunakan layanan berbasis cloud untuk memastikan sumber daya AWS berjalan sesuai dengan harapan.
 
 ---
 
-Functions can be executed for one or both of the following reasons:
+Misalnya, Anda dapat melakukan proses scaling (penyesuaian kapasitas) secara otomatis jika sebuah EC2 instance dalam keadaan over-utilized (digunakan secara berlebihan). Atau, Anda juga bisa menerima pemberitahuan jika suatu aplikasi mulai mengirimkan respons kesalahan dengan kecepatan tinggi.
 
-> 1. You want its return value.
-> 2. You want it to have **some other effect**.
-
-<div class="fragment">
-These are (a bit misleadingly) called _side effects_. Any effect that is not the return value is a side effect.
-</div>
+Oke, untuk beberapa modul berikutnya kita akan membahas berbagai layanan yang dapat membantu Anda memonitor lingkungan AWS. Pemantauan dapat digunakan untuk mengukur performa dari sistem, memberi peringatan jika ada yang tak beres, bahkan dapat membantu proses debugging (identifikasi dan perbaikan eror).
 
 
-
-## Functions with side effects
+## Amazon CloudWatch
 
 ```r
 write.csv(...)
@@ -44,7 +45,7 @@ alarm()
 
 
 
-## More side effects
+## AWS CloudTrail
 
 ```r
 # Sets a variable in a parent environment
@@ -62,7 +63,7 @@ foo$bar <- TRUE
 
 
 
-## NOT side effects (when inside a function)
+## AWS Trusted Advisor
 
 ```r
 # Modifying *local* variables
@@ -83,7 +84,7 @@ predict(wfit, interval = "prediction")
 
 
 
-## Ehhh... Not side effects
+## 
 
 ```r
 # Reading from disk
