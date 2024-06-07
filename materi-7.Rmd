@@ -30,19 +30,20 @@ Oke, untuk beberapa modul berikutnya kita akan membahas berbagai layanan yang da
 
 
 ## Amazon CloudWatch
+Amazon CloudWatch. Ia dapat memantau infrastruktur dan aplikasi yang Anda jalankan di AWS secara real time. Layanan ini bekerja dengan cara melacak dan memantau metrik. Metrik adalah variabel yang terikat dengan sumber daya Anda, seperti penggunaan CPU dari EC2 instance.
+Nah, hal ini bisa terwujud dengan hadirnya Amazon CloudWatch alarm. Anda dapat membuat suatu metrik khusus dan menetapkan ambang batasnya adalah 100. Pada saat jumlah espreso yang dibuat telah mencapai angka tersebut, ia akan memperingatkan Anda untuk membersihkan mesin. Sederhana, bukan?
 
-```r
-write.csv(...)
+---
 
-plot(cars)
-
-print(x)
-
-httr.POST(...)
-
-alarm()
-```
-
+Tentu kita bisa menggunakan fitur CloudWatch dashboard. Ia adalah panel yang mencantumkan metrik hampir secara real time.
+Dashboard ini akan me-refresh secara otomatis setiap kali terbuka sehingga akan selalu menunjukkan tampilan terkini dari sumber daya Anda.
+Apa keuntungan menggunakan Amazon CloudWatch :
+<ul>
+  <li>Akses ke semua metrik dari satu Lokasi</li>
+  <li>Visibilitas ke seluruh aplikasi, infrastruktur, dan layanan</li>
+  <li>Mengurangi waktu MTTR dan mengurangi TCO</li>
+  <li>Mengoptimalkan aplikasi dan sumber daya operasional</li>
+</ul>
 
 
 ## AWS CloudTrail
